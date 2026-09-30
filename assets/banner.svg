@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="50%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.0"/>
+    </linearGradient>
+    <style>
+      .title { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 44px; fill: #ffffff; }
+      .subtitle { font-family: system-ui, -apple-system, sans-serif; font-weight: 500; font-size: 20px; fill: #cbd5e1; }
+      .tag { font-family: system-ui, -apple-system, sans-serif; font-weight: 600; font-size: 13px; fill: #818cf8; letter-spacing: 1.5px; }
+      .star { fill: #fbbf24; }
+      
+      /* Dynamic SVG Animations */
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(2deg); }
+      }
+      @keyframes floatFast {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-18px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.2; transform: scale(1); }
+        50% { opacity: 0.5; transform: scale(1.08); }
+      }
+      @keyframes dashWave {
+        0% { stroke-dashoffset: 1000; }
+        100% { stroke-dashoffset: 0; }
+      }
+      
+      .bg-glow { animation: pulseGlow 6s ease-in-out infinite; transform-origin: center; }
+      .card-float-1 { animation: floatSlow 7s ease-in-out infinite; }
+      .card-float-2 { animation: floatFast 5s ease-in-out infinite; }
+      .wave-line { stroke-dasharray: 1000; animation: dashWave 20s linear infinite; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" rx="16" fill="url(#bg)"/>
+
+  <!-- Glowing background dynamic graphics -->
+  <circle cx="200" cy="160" r="220" fill="url(#glow)" class="bg-glow"/>
+  <circle cx="1000" cy="100" r="180" fill="url(#glow)" class="bg-glow" style="animation-delay: -3s;"/>
+
+  <!-- Dynamic Wave Lines in Background -->
+  <path d="M-100,240 C300,120 600,320 1300,180" fill="none" stroke="url(#accent)" stroke-width="2" stroke-opacity="0.25" class="wave-line"/>
+  <path d="M-100,280 C400,180 700,350 1300,220" fill="none" stroke="url(#accent)" stroke-width="1.5" stroke-opacity="0.15" class="wave-line" style="animation-delay: -5s;"/>
+
+  <!-- Dynamic Decorative Cards (Positioned safely behind main content / in margins) -->
+  <!-- Floating Widget Card Left -->
+  <g class="card-float-1" transform="translate(65, 45)">
+    <rect width="180" height="85" rx="12" fill="#1e293b" fill-opacity="0.75" stroke="#334155" stroke-width="1.5"/>
+    <text x="16" y="32" font-family="system-ui" font-size="13" font-weight="700" fill="#f8fafc">⭐ 4.9 / 5.0</text>
+    <text x="16" y="54" font-family="system-ui" font-size="11" fill="#94a3b8">Based on 12,450+ reviews</text>
+    <rect x="16" y="64" width="120" height="6" rx="3" fill="#334155"/>
+    <rect x="16" y="64" width="105" height="6" rx="3" fill="url(#accent)"/>
+  </g>
+
+  <!-- Floating Testimonial Card Right -->
+  <g class="card-float-2" transform="translate(945, 175)">
+    <rect width="190" height="90" rx="12" fill="#1e293b" fill-opacity="0.75" stroke="#334155" stroke-width="1.5"/>
+    <text x="16" y="28" font-family="system-ui" font-size="11" font-weight="600" fill="#38bdf8">💬 Verified Buyer</text>
+    <text x="16" y="48" font-family="system-ui" font-size="11" fill="#cbd5e1">"Boosted conversion by 24%!"</text>
+    <g transform="translate(16, 60)">
+      <path class="star" d="M6 0l1.8 3.6 4.2.6-3 3 .7 4.2L6 9.4l-3.7 2L3 7.20-3-3 4.2-.6z" transform="scale(0.8)"/>
+      <path class="star" d="M6 0l1.8 3.6 4.2.6-3 3 .7 4.2L6 9.4l-3.7 2L3 7.20-3-3 4.2-.6z" transform="translate(14,0) scale(0.8)"/>
+      <path class="star" d="M6 0l1.8 3.6 4.2.6-3 3 .7 4.2L6 9.4l-3.7 2L3 7.20-3-3 4.2-.6z" transform="translate(28,0) scale(0.8)"/>
+      <path class="star" d="M6 0l1.8 3.6 4.2.6-3 3 .7 4.2L6 9.4l-3.7 2L3 7.20-3-3 4.2-.6z" transform="translate(42,0) scale(0.8)"/>
+      <path class="star" d="M6 0l1.8 3.6 4.2.6-3 3 .7 4.2L6 9.4l-3.7 2L3 7.20-3-3 4.2-.6z" transform="translate(56,0) scale(0.8)"/>
+    </g>
+  </g>
+
+  <!-- Center Foreground Header Content (Guaranteed Unobstructed) -->
+  <g transform="translate(600, 140)" text-anchor="middle">
+    <!-- Category Pill Tag -->
+    <rect x="-140" y="-82" width="280" height="28" rx="14" fill="#312e81" fill-opacity="0.8" stroke="#6366f1" stroke-width="1"/>
+    <text x="0" y="-63" class="tag" text-anchor="middle">CURATED ECOSYSTEM RESOURCE</text>
+
+    <!-- Main Title -->
+    <text x="0" y="-10" class="title">Awesome Customer Review Management 🌟</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="32" class="subtitle">SaaS Platforms, Open-Source Repos, UGC Widgets &amp; Review Intelligence</text>
+
+    <!-- Decorative Accent Line below Subtitle -->
+    <rect x="-100" y="52" width="200" height="4" rx="2" fill="url(#accent)"/>
+  </g>
+</svg>
