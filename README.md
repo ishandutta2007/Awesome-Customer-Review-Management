@@ -58,59 +58,59 @@
 
 ## 🔓 Open-Source GitHub Projects 🛠️
 
-Sorted by GitHub Star Count (Descending) 🌟
+Sorted by GitHub Stars_Count (Descending) 🌟
 
-- **[PostHog](https://github.com/posthog/posthog/stargazers)** [![GitHub Stars](https://img.shields.io/github/stars/posthog/posthog?style=social&color=white)](https://github.com/posthog/posthog/stargazers) 🦔
+- **[PostHog](https://github.com/posthog/posthog/stargazers)** [![GitHub_Stars](https://img.shields.io/github/stars/posthog/posthog?style=social&color=white)](https://github.com/posthog/posthog/stargazers) 🦔
   - **Open-source product analytics, user feedback surveys, and session recording platform.** Allows teams to trigger in-app customer review prompts, micro-surveys, and feedback widgets.
   - **Tech Stack**: Python, Django, React, TypeScript, ClickHouse, PostgreSQL.
   - **License**: MIT / ELv2.
 
-- **[Formbricks](https://github.com/Formbricks/formbricks/stargazers)** [![GitHub Stars](https://img.shields.io/github/stars/Formbricks/formbricks?style=social&color=white)](https://github.com/Formbricks/formbricks/stargazers) 🧱
+- **[Formbricks](https://github.com/Formbricks/formbricks/stargazers)** [![GitHub_Stars](https://img.shields.io/github/stars/Formbricks/formbricks?style=social&color=white)](https://github.com/Formbricks/formbricks/stargazers) 🧱
   - **Open-source Qualtrics alternative for customer feedback and product reviews.** Conduct targeted in-app, web, and email review collection surveys with granular audience targeting.
   - **Tech Stack**: Next.js, TypeScript, TailwindCSS, PostgreSQL, Prisma.
   - **License**: AGPL-3.0.
 
-- **[OpenPanel](https://github.com/openpanel-dev/openpanel/stargazers)** [![GitHub Stars](https://img.shields.io/github/stars/openpanel-dev/openpanel?style=social&color=white)](https://github.com/openpanel-dev/openpanel/stargazers) 📊
+- **[OpenPanel](https://github.com/openpanel-dev/openpanel/stargazers)** [![GitHub_Stars](https://img.shields.io/github/stars/openpanel-dev/openpanel?style=social&color=white)](https://github.com/openpanel-dev/openpanel/stargazers) 📊
   - **Open-source analytics and user event tracking platform with feedback collection capability.** Easily track customer review submission events and evaluate customer sentiment trends.
   - **Tech Stack**: Next.js, TypeScript, ClickHouse, Go.
   - **License**: AGPL-3.0.
 
-- **[Fider](https://github.com/getfider/fider/stargazers)** [![GitHub Stars](https://img.shields.io/github/stars/getfider/fider?style=social&color=white)](https://github.com/getfider/fider/stargazers) 💡
+- **[Fider](https://github.com/getfider/fider/stargazers)** [![GitHub_Stars](https://img.shields.io/github/stars/getfider/fider?style=social&color=white)](https://github.com/getfider/fider/stargazers) 💡
   - **Open platform to collect, upvote, and prioritize customer feedback & reviews.** Features public or private feedback boards, OAuth/email login, and roadmap publishing.
   - **Tech Stack**: Go, TypeScript, React, PostgreSQL.
   - **License**: AGPL-3.0.
 
-- **[Feedbin](https://github.com/feedbin/feedbin/stargazers)** [![GitHub Stars](https://img.shields.io/github/stars/feedbin/feedbin?style=social&color=white)](https://github.com/feedbin/feedbin/stargazers) 📰
+- **[Feedbin](https://github.com/feedbin/feedbin/stargazers)** [![GitHub_Stars](https://img.shields.io/github/stars/feedbin/feedbin?style=social&color=white)](https://github.com/feedbin/feedbin/stargazers) 📰
   - **Open-source web webfeed aggregator adaptable for monitoring external brand reviews and news.**
   - **Tech Stack**: Ruby on Rails, PostgreSQL, Redis.
   - **License**: MIT.
 
-- **[Astuto](https://github.com/astuto/astuto/stargazers)** [![GitHub Stars](https://img.shields.io/github/stars/astuto/astuto?style=social&color=white)](https://github.com/astuto/astuto/stargazers) 🇮🇹
+- **[Astuto](https://github.com/astuto/astuto/stargazers)** [![GitHub_Stars](https://img.shields.io/github/stars/astuto/astuto?style=social&color=white)](https://github.com/astuto/astuto/stargazers) 🇮🇹
   - **Self-hosted customer feedback collection tool inspired by Canny.** Helps product teams collect feedback, track feature requests, and organize community review boards via Docker.
   - **Tech Stack**: Ruby on Rails, Vue.js, PostgreSQL.
   - **License**: MIT.
 
-- **[reviewsup.io](https://github.com/allenyan513/reviewsup.io/stargazers)** [![GitHub Stars](https://img.shields.io/github/stars/allenyan513/reviewsup.io?style=social&color=white)](https://github.com/allenyan513/reviewsup.io/stargazers) ⚡
+- **[reviewsup.io](https://github.com/allenyan513/reviewsup.io/stargazers)** [![GitHub_Stars](https://img.shields.io/github/stars/allenyan513/reviewsup.io?style=social&color=white)](https://github.com/allenyan513/reviewsup.io/stargazers) ⚡
   - **Open-source reviews and testimonials management platform.** Purpose-built for developers to collect, manage, and display social proof with widgets for JavaScript, React, and Vue.
   - **Tech Stack**: Node.js, Next.js, NestJS, PostgreSQL, React, TypeScript.
   - **License**: MIT.
 
-- **[Rato](https://github.com/hoochlef/Rato/stargazers)** [![GitHub Stars](https://img.shields.io/github/stars/hoochlef/Rato?style=social&color=white)](https://github.com/hoochlef/Rato/stargazers) 🤖
+- **[Rato](https://github.com/hoochlef/Rato/stargazers)** [![GitHub_Stars](https://img.shields.io/github/stars/hoochlef/Rato?style=social&color=white)](https://github.com/hoochlef/Rato/stargazers) 🤖
   - **AI-powered business review platform inspired by Trustpilot.** Features automated review summaries, intelligent moderation (detecting spam and hate speech), and merchant profile claiming.
   - **Tech Stack**: FastAPI, PostgreSQL, Next.js, React, Tailwind CSS.
   - **License**: MIT.
 
-- **[VoxAuditor](https://github.com/DaruruGirish/VoxAuditor/stargazers)** [![GitHub Stars](https://img.shields.io/github/stars/DaruruGirish/VoxAuditor?style=social&color=white)](https://github.com/DaruruGirish/VoxAuditor/stargazers) 🔍
+- **[VoxAuditor](https://github.com/DaruruGirish/VoxAuditor/stargazers)** [![GitHub_Stars](https://img.shields.io/github/stars/DaruruGirish/VoxAuditor?style=social&color=white)](https://github.com/DaruruGirish/VoxAuditor/stargazers) 🔍
   - **Product review intelligence engine with local vector database (ChromaDB).** Groups customer complaints via embeddings and enables conversational Q&A over offline review data.
   - **Tech Stack**: Python, FastAPI, ChromaDB, sentence-transformers, React, Docker.
   - **License**: MIT.
 
-- **[Trustpilot WooCommerce Plugin](https://github.com/klader-digital/trustpilot-reviews/stargazers)** [![GitHub Stars](https://img.shields.io/github/stars/klader-digital/trustpilot-reviews?style=social&color=white)](https://github.com/klader-digital/trustpilot-reviews/stargazers) 🛒
+- **[Trustpilot WooCommerce Plugin](https://github.com/klader-digital/trustpilot-reviews/stargazers)** [![GitHub_Stars](https://img.shields.io/github/stars/klader-digital/trustpilot-reviews?style=social&color=white)](https://github.com/klader-digital/trustpilot-reviews/stargazers) 🛒
   - **Trustpilot's official free WooCommerce plugin repository.** Automates post-purchase review request emails and embeds drag-and-drop TrustBox widgets in e-commerce stores.
   - **Tech Stack**: PHP, WordPress, WooCommerce.
   - **License**: GPL-2.0.
 
-- **[Easy Review AliExpress Importer](https://github.com/PhilipHilgendorf/Easy-Review-Aliexpress-Importer/stargazers)** [![GitHub Stars](https://img.shields.io/github/stars/PhilipHilgendorf/Easy-Review-Aliexpress-Importer?style=social&color=white)](https://github.com/PhilipHilgendorf/Easy-Review-Aliexpress-Importer/stargazers) 📦
+- **[Easy Review AliExpress Importer](https://github.com/PhilipHilgendorf/Easy-Review-Aliexpress-Importer/stargazers)** [![GitHub_Stars](https://img.shields.io/github/stars/PhilipHilgendorf/Easy-Review-Aliexpress-Importer?style=social&color=white)](https://github.com/PhilipHilgendorf/Easy-Review-Aliexpress-Importer/stargazers) 📦
   - **WooCommerce review importer tool.** Imports product reviews with photos directly from AliExpress into WooCommerce stores, featuring automatic translation via DeepL API.
   - **Tech Stack**: PHP, WordPress, WooCommerce.
   - **License**: GPL-3.0.
